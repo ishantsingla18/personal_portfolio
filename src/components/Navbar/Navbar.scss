@@ -1,0 +1,62 @@
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+  .container {
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        margin-right: 70px;
+      }
+
+      a {
+        text-decoration: none;
+        margin-right: 40px;
+        color: #faebef;
+        transition: color 0.5s;
+
+        &:hover {
+          color: #a3a3ff;
+        }
+
+        img {
+          width: 100px;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        .social {
+          font-size: 50px;
+          margin-left: 30px;
+          text-decoration: none;
+          color: #faebef;
+          transition: color 0.5s;
+
+          &:hover {
+            color: #a3a3ff;
+          }
+        }
+
+        .github {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
